@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Ultimate111Daheng_get" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Ultimate111Daheng_get" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Ultimate111Daheng_get" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Armor.cpp" />
+		<Unit filename="Armor.h" />
+		<Unit filename="DxImageProc.h" />
+		<Unit filename="GxIAPI.h" />
+		<Unit filename="Lightbar.cpp" />
+		<Unit filename="Lightbar.h" />
+		<Unit filename="cam.cpp" />
+		<Unit filename="cam.h" />
+		<Unit filename="common.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="num_match.cpp" />
+		<Unit filename="num_match.h" />
+		<Unit filename="predict.h" />
+		<Unit filename="serrial.cpp" />
+		<Unit filename="serrial.h" />
+		<Unit filename="target.cpp" />
+		<Unit filename="target.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

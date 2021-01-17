@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1594459300 source:/home/star/Ultimate111Daheng_get/Armor.cpp
+	"Armor.h"
+	<opencv2/opencv.hpp>
+	<iostream>
+	"common.h"
+	"num_match.h"
+
+1596199613 /home/star/Ultimate111Daheng_get/Armor.h
+	<iostream>
+	<opencv2/opencv.hpp>
+	"num_match.h"
+
+1594459300 /home/star/Ultimate111Daheng_get/num_match.h
+	<opencv2/opencv.hpp>
+	<iostream>
+	<vector>
+
+1596278418 /home/star/Ultimate111Daheng_get/common.h
+	<iostream>
+	<opencv2/opencv.hpp>
+
+1595837114 source:/home/star/Ultimate111Daheng_get/cam.cpp
+	"cam.h"
+	<opencv2/opencv.hpp>
+	<unistd.h>
+	"GxIAPI.h"
+	"DxImageProc.h"
+	"Armor.h"
+	<iostream>
+	<unistd.h>
+
+1595749599 /home/star/Ultimate111Daheng_get/cam.h
+	<iostream>
+	<opencv2/opencv.hpp>
+	"GxIAPI.h"
+	<DxImageProc.h>
+	"Lightbar.h"
+	"Armor.h"
+
+1573180138 /home/star/Ultimate111Daheng_get/GxIAPI.h
+	<stdint.h>
+	<stdint.h>
+	<stdint.h>
+	<stddef.h>
+	<Windows.h>
+
+1594459300 /home/star/Ultimate111Daheng_get/Lightbar.h
+	<opencv2/opencv.hpp>
+	<iostream>
+	<vector>
+
+1573180138 /home/star/Ultimate111Daheng_get/DxImageProc.h
+	"stdafx.h"
+	<stdlib.h>
+	<string.h>
+
+1594459300 source:/home/star/Ultimate111Daheng_get/Lightbar.cpp
+	"Lightbar.h"
+	<math.h>
+	"cam.h"
+	"common.h"
+
+1596428058 source:/home/star/Ultimate111Daheng_get/main.cpp
+	<iostream>
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/opencv.hpp>
+	"Lightbar.h"
+	"Armor.h"
+	"cam.h"
+	"target.h"
+	"serrial.h"
+	"common.h"
+
+1594459300 /home/star/Ultimate111Daheng_get/target.h
+	"Armor.h"
+	<iostream>
+	<opencv2/opencv.hpp>
+
+1595649122 /home/star/Ultimate111Daheng_get/serrial.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<iostream>
+	<vector>
+	<string>
+
+1594624634 source:/home/star/Ultimate111Daheng_get/num_match.cpp
+	"num_match.h"
+	<opencv2/opencv.hpp>
+	"common.h"
+
+1596183473 source:/home/star/Ultimate111Daheng_get/serrial.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<termios.h>
+	<errno.h>
+	<iostream>
+	<pthread.h>
+	"serrial.h"
+
+1596428058 source:/home/star/Ultimate111Daheng_get/target.cpp
+	"target.h"
+	"serrial.h"
+	"Armor.h"
+	<iostream>
+	<opencv2/opencv.hpp>
+	"common.h"
+	"predict.h"
+
+1594459300 /home/star/Ultimate111Daheng_get/predict.h
+	<iostream>
+	<vector>
+	"Armor.h"
+
